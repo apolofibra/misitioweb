@@ -1,0 +1,53 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.7;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+}
+.nav-link {
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+section {
+  scroll-margin-top: 90px;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #0d6efd;
+}
+form {
+  background: #fff;
+}
+
+form input,
+form textarea {
+  border-radius: 6px;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}
+footer {
+  font-size: 0.9rem;
+}
+@media (max-width: 576px) {
+  header .navbar-brand {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+}
